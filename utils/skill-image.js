@@ -252,6 +252,6 @@ export const skillsImage = (skill) => {
     case 'fastapi':
       return fastapi;
     default:
-      break;
+      return react; 
   }
 }

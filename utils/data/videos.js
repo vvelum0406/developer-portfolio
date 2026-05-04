@@ -1,33 +1,32 @@
 export const videos = [
-   {
-    "id": 1,
-    "title": "Weather Assistant - Mobile App",
-    "url": "https://www.youtube.com/embed/v1CCxFpI1wM?si=ZlsNoKKgBWQy0-mP",
-    "videourl": 'https://youtu.be/v1CCxFpI1wM?si=ZlsNoKKgBWQy0-mP'
+  {
+    id: 1,
+    title: "How Large Language Models Actually Work (Deep Dive)",
+    url: "https://www.youtube.com/embed/LPZh9BOjkQs",
+    videourl: "https://youtu.be/LPZh9BOjkQs"
   },
   {
-    "id": 2,
-    "title": "Flow - AI Travel Assistant",
-    "url": "https://youtube.com/embed/10GUpMTtgJc?si=H3CSJOTivjxzcJ7D",
-    "videourl": 'https://youtube.com/shorts/10GUpMTtgJc?si=H3CSJOTivjxzcJ7D'
+    id: 2,
+    title: "How the Internet Actually Works: From Browser to Server",
+    url: "https://www.youtube.com/embed/x3c1ih2NJEg",
+    videourl: "https://youtu.be/x3c1ih2NJEg"
   },
   {
-    "id": 3,
-    "title": "Cab Around (Trip)",
-    "url": "https://www.youtube.com/embed/8pvDxJKxFYA?si=WRk2w65DdgxZ6ZOm",
-    "videourl": "https://youtu.be/8pvDxJKxFYA?si=V7zekVnWmpM6czyG"
+    id: 3,
+    title: "Brain-Computer Interfaces: Connecting the Brain to Technology",
+    url: "https://www.youtube.com/embed/rSQNi5sAwuc",
+    videourl: "https://youtu.be/rSQNi5sAwuc"
   },
-    {
-      "id": 4,
-      "title": "Cab Around (User)",
-      "url": "https://www.youtube.com/embed/73apoGo3bTw?si=a7NUrueG3nnjIU52",
-      "videourl": 'https://youtu.be/73apoGo3bTw?si=yjkgidWXA2BcZ6jg'
-    },
-    {
-      "id": 5,
-      "title": "Cab Around (Driver)",
-      "url": "https://www.youtube.com/embed/73PdQ69rNhY?si=ZftrqX8anASh6AOs",
-      "videourl": "https://youtu.be/73PdQ69rNhY?si=Oqukma4Mb8uOOe0V"
-    },
-  ]
-  
+  {
+    id: 4,
+    title: "What Happens When You Type a URL in Your Browser",
+    url: "https://www.youtube.com/embed/7_LPdttKXPc",
+    videourl: "https://youtu.be/7_LPdttKXPc"
+  },
+  {
+    id: 5,
+    title: "How Netflix Designs for Scale (System Design Case Study)",
+    url: "https://www.youtube.com/embed/psQzyFfsUGU",
+    videourl: "https://youtu.be/psQzyFfsUGU"
+  }
+];

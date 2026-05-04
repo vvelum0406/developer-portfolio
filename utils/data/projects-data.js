@@ -1,63 +1,47 @@
 export const projectsData = [
-    {
-        id: 1,
-        name: 'Cab Around',
-        tools: ['React Native', 'GraphQL', 'AWS', 'AWS Amplify', 'AWS S3', 'AWS CloudWatch'],
-        role: "Software Engineer",
-        code: '',
-        demo: 'https://youtube.com/playlist?list=PLQePrdBWxlsXQREK6iZuaEPGVOKFoVBWh&si=GTli4NfW1-7ZAo7y',
-        description: 'Engineered a dual ridesharing app using React Native, GraphQL, and AWS services, achieving 99.5% uptime. Key features include vehicle-type booking, real-time driver updates, seamless payments, a chatbot boosting engagement by 15%, trip histories, and saved locations for 25% quicker bookings.'
-    },
-    {
-        id: 2,
-        name: 'Digi Mart',
-        tools: ['Java', 'MVC Architecture', 'HTML5', 'CSS3', 'JavaScript', 'Docker', 'Kubernetes', 'AWS'],
-        role: "Software Engineer",
-        code: '',
-        demo: '',
-        description: 'Designed, developed, and deployed an e-commerce website with secure payment gateway integration, utilizing Java, MVC architecture, HTML5, CSS3, JavaScript, and third-party APIs. Containerized the application using Docker and deployed on a Kubernetes cluster for improved scalability and reliability.'
-
-    },
-    {
-        id: 3,
-        name: 'Smart Personal Finance Assistant',
-        tools: ['Python', 'React.js','AWS','JavaScript', 'Machine Learning', 'Predictive Analytics', 'Pandas'],
-        role: "Software Engineer",
-        code: '',
-        demo: '',
-        description: 'Developed a personal finance assistant using Python and React.js that helps users manage their expenses and savings through predictive analytics and personalized insights, resulting in a 25% increase in savings over six months. Created a machine learning model leveraging historical spending data to categorize transactions and forecast monthly budgets with 90% accuracy.'
-
-    },
-    {
-        id: 4,
-        name: "Flow - Travel Assistant",
-        tools: ["React Native", "Axios", "OpenAI API", "JavaScript", "Node.js"],
-        role: "Software Engineer",
-        code: "",
-        demo: "",
-        description: "Developed a  travel assistant mobile app using React Native that provides personalized travel recommendations and real-time assistance to users. Integrated OpenAI API to enable natural language processing for user queries, resulting in 40% more efficient trip planning."
-    },
-        {
-        id: 5,
-        name: "Weather Assistant",
-        tools: ["React Native", "TypeScript", "Open-Meteo API", "AWS", "iOS Notifications"],
-        role: "Software Engineer",
-        code: "",
-        demo: "",
-        description: "A sleek mobile application that acts as a personal weather assistant, providing real-time weather updates and additional insights using the Open-Meteo API. The app includes a modern UI, backend integration, and iOS notifications for unique weather updates."
-    },
-    
+  {
+    id: 1,
+    name: 'Web-Based Research Dashboard',
+    tools: ['React', 'JavaScript', 'HTML', 'CSS', 'SQL', 'AWS', 'Data Visualization'],
+    role: "Web Developer",
+    code: '',
+    demo: '',
+    description: 'Developed an interactive research dashboard to display structured datasets, trends, and insights in a more accessible format. Integrated SQL-based data retrieval with reusable frontend components and deployed the application using AWS for scalability. Added filtering, responsive layouts, and visualization features to help users explore data more efficiently.'
+  },
+  {
+    id: 2,
+    name: 'Beverage Analyzer',
+    tools: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Data Cleaning', 'Data Visualization'],
+    role: "Data Analyst / Developer",
+    code: '',
+    demo: '',
+    description: 'Built a data analysis pipeline to clean, process, and evaluate beverage datasets for trends in ingredients, nutrition, pricing, and customer preferences. Used Python, Pandas, and NumPy to transform raw data into structured insights. Created visualizations to compare beverage categories and identify patterns that could support product or business decisions.'
+  },
+  {
+    id: 3,
+    name: 'Full Stack Portfolio Website',
+    tools: ['Next.js', 'React', 'JavaScript', 'Tailwind CSS', 'Responsive Design', 'Deployment'],
+    role: "Full Stack Developer",
+    code: '',
+    demo: '',
+    description: 'Designed and developed a responsive portfolio website with reusable components, dynamic data files, and organized sections for projects, experience, skills, and contact information. Improved maintainability by separating content from UI components. Optimized the layout for desktop and mobile devices while keeping the design clean and recruiter-friendly.'
+  },
+  {
+    id: 4,
+    name: 'Weather App',
+    tools: ['React', 'JavaScript', 'REST API', 'CSS', 'Async/Await', 'Responsive Design'],
+    role: "Frontend Developer",
+    code: '',
+    demo: '',
+    description: 'Created a weather application that fetches real-time forecast data from an external API and displays current conditions, temperature, and location-based results. Implemented asynchronous API calls, error handling, and conditional rendering for loading and invalid search states. Designed a responsive interface to improve usability across screen sizes.'
+  },
+  {
+    id: 5,
+    name: 'Expense Tracker',
+    tools: ['JavaScript', 'HTML', 'CSS', 'Local Storage', 'DOM Manipulation'],
+    role: "Frontend Developer",
+    code: '',
+    demo: '',
+    description: 'Built a personal finance tracker that allows users to add, delete, and categorize expenses while calculating total spending dynamically. Used local storage to persist user data between sessions and implemented DOM updates for a smoother user experience. Added simple budgeting logic to help users monitor spending patterns over time.'
+  },
 ];
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-// },
