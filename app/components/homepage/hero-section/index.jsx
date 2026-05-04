@@ -53,8 +53,6 @@ function HeroSection() {
                 <RiContactsFill size={16} />
               </button>
             </Link>
-
-           
           </div>
         </div>
 
@@ -84,15 +82,15 @@ function HeroSection() {
 
               <div className="ml-4">
                 <span className="text-white">name:</span>{" "}
-                <span className="text-gray-400">'</span>
+                <span className="text-gray-400">&apos;</span>
                 <span className="text-amber-300">Varsha Velumani</span>
-                <span className="text-gray-400">',</span>
+                <span className="text-gray-400">&apos;,</span>
               </div>
 
               <div className="ml-4">
                 <span className="text-white">skills:</span>{" "}
                 <span className="text-gray-400">
-                  ['React', 'JavaScript', 'C++', 'Java', 'AWS', 'MySQL', 'Docker'],
+                  {`['React', 'JavaScript', 'C++', 'Java', 'AWS', 'MySQL', 'Docker'],`}
                 </span>
               </div>
 
